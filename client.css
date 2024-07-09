@@ -1,0 +1,106 @@
+
+
+ #main-container {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+#chat-section {
+    height: 100%; border: 2px solid lightgray; border-radius: 6px;
+
+   
+} 
+
+
+#chat {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url('https://w0.peakpx.com/wallpaper/744/548/HD-wallpaper-whatsapp-ma-doodle-pattern-thumbnail.jpg');
+}
+
+#header {
+    background-color: rgb(236, 229, 221);
+}
+
+#footer ,#header{
+    background-color: rgb(236, 229, 221);
+    margin: 5px;
+}
+
+.chat-message {
+    padding: 10px 20px;
+  }
+  .message-avatar {
+    height: 48px;
+    width: 48px;
+    border: 1px solid #e7eaec;
+    border-radius: 50%;
+    margin-top: 1px;
+  }
+  .chat-discussion .chat-message.left .message-avatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .chat-discussion .chat-message.right .message-avatar {
+    float: right;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .message {
+    background-color: #fff;
+    border: 1px solid #e7eaec;
+    text-align: left;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 10px;
+  }
+
+
+  .messageHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .message-author{
+    font-weight: bold;
+  }
+
+   .chat-discussion .chat-message.left .message {
+    margin-left: 55px;
+    color:black;
+    background-color: white;
+  }
+  .chat-discussion .chat-message.right .message {
+    margin-right: 55px;
+    color:white;
+    background-color: rgb(88,159,251);
+  } 
+  .message-date {
+    font-size: 12px;
+  }
+  .message-content {
+    display: block;
+  }
+  .chat-discussion {
+    background: #eee;
+    padding: 15px;
+    height:80vh;
+    overflow-y: auto;
+    margin: 5px;
+  }
+
+  #usersCount{
+    color:white;
+    background-color: #0F6FFD;
+    text-align: center;
+  }
+
+  #usersList{
+    /* width:300px; */
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 5px;
+  }
